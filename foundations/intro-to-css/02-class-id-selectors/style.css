@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.even {
+    color: blue;
+    font-size: 36px;
+}
+
+.num3 {
+    font-size: 24px;
+}
+
+.even#num4 {
+    background-color: lightgreen;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
