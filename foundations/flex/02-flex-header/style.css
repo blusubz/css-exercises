@@ -1,6 +1,11 @@
+/* M */
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -9,11 +14,18 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 20px;
+  /* border: 2px solid black; remove to submit */
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin: 8px;
+  padding: 16px;
 }
 
 a {
@@ -22,4 +34,11 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 6px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  align-items: center;
 }
